@@ -10,14 +10,13 @@ import kotlin.text.*
  */
 
 fun aVeryBigSum(ar: Array<Long>): Long {
-    // Write your code here
-    return 0
+    return ar.sum()
 }
 
 fun main(args: Array<String>) {
     val arCount = readLine()!!.trim().toInt()
 
-    val ar = readLine()!!.trimEnd().split(" ").map{ it.toLong() }.toTypedArray()
+    val ar = readLine()!!.trimEnd().split(" ").map{ it.trim().toLong() }.toTypedArray()
 
     val result = aVeryBigSum(ar)
 
