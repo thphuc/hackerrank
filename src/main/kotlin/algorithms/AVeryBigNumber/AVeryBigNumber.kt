@@ -1,7 +1,3 @@
-import kotlin.collections.*
-import kotlin.io.*
-import kotlin.text.*
-
 /*
  * Complete the 'aVeryBigSum' function below.
  *
