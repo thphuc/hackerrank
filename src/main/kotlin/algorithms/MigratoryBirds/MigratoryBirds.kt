@@ -13,9 +13,11 @@ fun migratoryBirds(arr: Array<Int>): Int {
     map[4] = 0
     map[5] = 0
     for (i in arr) {
+        // Found an id, increase the count of it
         map[i] = map.getValue(i) + 1
     }
 
+    // Return the key of the max value (max count)
     return map.maxBy { it.value }.key
 }
 
