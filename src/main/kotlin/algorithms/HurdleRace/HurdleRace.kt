@@ -1,5 +1,3 @@
-import kotlin.math.ceil
-
 /*
  * Complete the 'hurdleRace' function below.
  *
@@ -15,7 +13,7 @@ fun hurdleRace(k: Int, height: Array<Int>): Int {
     if (k >= max!!) {
         return 0
     }
-    return max!! - k
+    return max - k
 }
 
 fun main(args: Array<String>) {
